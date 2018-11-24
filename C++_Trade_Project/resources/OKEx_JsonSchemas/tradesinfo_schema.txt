@@ -1,0 +1,14 @@
+{
+  "type":"array",
+  "items":
+  {
+    "type":"object",
+    "properties":
+    {
+      "date_ms":{"type":"number"},
+      "amount":{"type":"number"},
+      "price":{"type":"number"}
+    },
+    "required":["date_ms","amount","price"]
+  }
+}

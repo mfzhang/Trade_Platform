@@ -1,0 +1,31 @@
+{
+  "type":"object",
+  "properties":
+  {
+    "currency_page":{"type":"integer"},
+    "orders":
+    {
+      "type":"array",
+      "items":
+      {
+        "type":"object",
+        "properties":
+        {
+           "symbol":{"type":"string"},
+           "type":{"anyOf":[{"type":"integer","enum":[1,2,3,4]},{"type":"string","enum":["buy","sell","buy_market","sell_market"]}]},
+           "order_id":{"type":"number"},
+           "create_date":{"type":"number"},
+           "amount":{"type":"number"},
+           "deal_amount":{"type":"number"},
+           "price":{"type":"number"},
+           "avg_price":{"type":"number"},
+           "price_avg":{"type":"number"},
+           "status":{"type":"integer"},
+           "lever_rate":{"type":"integer"}
+        },
+        "required":["symbol","type","order_id","create_date","amount","deal_amount","price","status"]
+      }
+    }
+  },
+  "required":["orders"]
+}

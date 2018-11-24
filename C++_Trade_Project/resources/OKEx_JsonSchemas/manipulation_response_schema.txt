@@ -1,0 +1,9 @@
+{
+  "type":"object",
+  "properties":
+  {
+     "result":{"type":"boolean"},
+     "order_id":{"anyOf":[{"type":"string"},{"type":"number"}]}
+  },
+  "required":["result"]
+}

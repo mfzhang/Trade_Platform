@@ -1,0 +1,13 @@
+{
+  "type":"array",
+  "items":
+  {
+    "type":"array",
+    "items":[{"type":"number"},{"anyOf":[{"type":"string"},{"type":"number"}]},
+             {"anyOf":[{"type":"string"},{"type":"number"}]},
+             {"anyOf":[{"type":"string"},{"type":"number"}]},
+             {"anyOf":[{"type":"string"},{"type":"number"}]},
+             {"anyOf":[{"type":"string"},{"type":"number"}]}],
+    "minItems":6
+  }
+}

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{8cbeeb87-d1df-452c-b89d-3a46a9a9de9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\TTEX">
+      <UniqueIdentifier>{6be58d41-cfc3-4f93-9580-8d1e445f46ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basements">
+      <UniqueIdentifier>{91589925-9b60-41ed-85a6-97eae371d1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Huobi">
+      <UniqueIdentifier>{66358bb6-19dc-4516-809c-f6b27cbff753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gerneral_Data_Structures">
+      <UniqueIdentifier>{0f767fca-c566-4c64-a71b-5f8e425120f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\OKEx">
+      <UniqueIdentifier>{6c4d90a9-7a52-46cc-b37a-2e8df7ab064a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\EXX">
+      <UniqueIdentifier>{a4148e99-5f92-49f6-8a19-380c4c7411f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Basements.h">
+      <Filter>Basements</Filter>
+    </ClInclude>
+    <ClInclude Include="TTEX_Connection.h">
+      <Filter>Platforms\TTEX</Filter>
+    </ClInclude>
+    <ClInclude Include="OKEx_Connection.h">
+      <Filter>Platforms\OKEx</Filter>
+    </ClInclude>
+    <ClInclude Include="General_Data_Structures.h">
+      <Filter>Gerneral_Data_Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="EXX_Connection.h">
+      <Filter>Platforms\EXX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Basements.cpp">
+      <Filter>Basements</Filter>
+    </ClCompile>
+    <ClCompile Include="TTEX_Connection.cpp">
+      <Filter>Platforms\TTEX</Filter>
+    </ClCompile>
+    <ClCompile Include="OKEx_Connection.cpp">
+      <Filter>Platforms\OKEx</Filter>
+    </ClCompile>
+    <ClCompile Include="EXX_Connection.cpp">
+      <Filter>Platforms\EXX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

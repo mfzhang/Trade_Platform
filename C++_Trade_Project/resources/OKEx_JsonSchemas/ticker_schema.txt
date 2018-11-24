@@ -1,0 +1,17 @@
+{
+ "type":"object",
+ "properties":
+  {
+    "date":{"anyOf":[{"type":"string"},{"type":"number"}]},
+    "ticker":
+    {
+       "type":"object",
+       "properties":
+       {
+          "last":{"anyOf":[{"type":"string"},{"type":"number"}]}
+       },
+       "required":["last"]
+    }
+  },
+  "required":["date","ticker"]
+}

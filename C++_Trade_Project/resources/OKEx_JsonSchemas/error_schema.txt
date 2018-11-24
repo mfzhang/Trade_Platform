@@ -1,0 +1,1 @@
+{"type":"object","properties":{"error_code":{"type":"integer"}},"required":["error_code"]}

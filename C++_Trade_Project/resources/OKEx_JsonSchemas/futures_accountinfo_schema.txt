@@ -1,0 +1,26 @@
+{
+  "type":"object",
+  "properties":
+  {
+    "result":{"type":"boolean"},
+    "info":
+    {
+      "type":"object",
+      "properties":{},
+      "additionalProperties":
+      { 
+        "type":"object",
+        "properties":
+        {
+          "account_rights":{"type":"number"},
+          "keep_deposit":{"type":"number"},
+          "profit_real":{"type":"number"},
+          "profit_unreal":{"type":"number"},
+          "risk_rate":{"type":"number"}
+        },
+        "required":["account_rights","keep_deposit","profit_real","profit_unreal","risk_rate"]
+      }
+    }
+  },
+  "required":["info"]
+}
